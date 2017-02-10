@@ -14627,7 +14627,7 @@ EdHDUqxFRERE9LAUaxERERE97L++WcwsxNAivAAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> It is the technique where the best parameters for an algorithm is automatically selected from a set of pre-determined ones. Using this technique, we achieve the best performance considering a range of parameters, without the need to change and test each parameter manually.</p>
+<p><strong>Answer: </strong> It is the technique where the best parameters for an algorithm is automatically selected from a set of pre-determined ones. Using this technique, we achieve the best performance considering a range of parameters, without the need to change and test each parameter manually. It worth mention that this technique can be computionally expensive when dealing with large datasets and/or a large number of parameters. It is common to combine grid-search with some technique to split the dataset, as the k-fold cross-validation or the randomized search cross validation.</p>
 
 </div>
 </div>
@@ -14648,7 +14648,7 @@ EdHDUqxFRERE9LAUaxERERE97L++WcwsxNAivAAAAABJRU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer: </strong> It is an improvement over splitting the data into train and test. The k-fold cross-validation splits the data into k chunks, using one of them for testing and the remaining for trainning. Iterativelly, it alternates the sets  until all data have been used both for trainning and for testing. Without cross-validation, the grid-search optimizes for the training data and possibly the model gets overfitted. However, using cross-validation, the grid-search optimizes considering the error for each combination of validation and trainning data, leading to a model with better generalization.</p>
+<p><strong>Answer: </strong> It is an improvement over splitting the data into train and test. The k-fold cross-validation splits the data into k chunks, using one of them for testing and the remaining for trainning. Iterativelly, it alternates the sets  until all data have been used both for trainning and for testing. Without cross-validation, the grid-search optimizes for the training data and possibly the model gets overfitted. However, using cross-validation the grid-search optimizes considering the error for each set of validation and trainning data, leading to a model with better generalization.</p>
 
 </div>
 </div>
